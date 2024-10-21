@@ -1,9 +1,9 @@
-function summation(n){
-    let sum = 0
-    for(i=1;i<=n;i++){
-        sum = sum + i
-    }
-    return sum
+function summation(n) {
+  sum = 0;
+  for (i = 0; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
 }
-let result = summation(4)
-console.log(result);
+let res = summation(4);
+console.log(res);
